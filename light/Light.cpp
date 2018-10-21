@@ -31,7 +31,7 @@ namespace implementation {
 #define LEDS            "/sys/class/leds/"
 
 #define LCD_LED         LEDS "lcd-backlight/"
-#define CHARGING_LED    LEDS "charging/"
+#define CHARGING_LED    LEDS "white/"
 
 #define BRIGHTNESS      "brightness"
 #define DUTY_PCTS       "duty_pcts"
