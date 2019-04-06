@@ -278,11 +278,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libjson
 
-# Radio
-PRODUCT_PACKAGES += \
-    librmnetctl \
-    libprotobuf-cpp-full
-
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
@@ -298,6 +293,15 @@ PRODUCT_COPY_FILES += \
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
+
+#  RIL
+PRODUCT_PACKAGES += \
+    android.hardware.radio@1.2 \
+    android.hardware.radio.config@1.0 \
+    android.hardware.secure_element@1.0 \
+    libprotobuf-cpp-full \
+    librmnetctl \
+    libcnefeatureconfig
 
 # Seccomp
 PRODUCT_COPY_FILES += \
