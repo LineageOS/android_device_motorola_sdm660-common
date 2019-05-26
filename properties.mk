@@ -116,7 +116,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.sf.disable_backpressure=1 \
     dev.pm.dyn_samplingrate=1 \
-    ro.opengles.version=196610
+    ro.opengles.version=196610 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=sdm660
 
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
