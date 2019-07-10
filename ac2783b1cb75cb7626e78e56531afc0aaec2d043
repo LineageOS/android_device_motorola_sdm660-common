@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e6146bb8_f507559d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2019-07-10T05:27:17Z",
+      "side": 1,
+      "message": "Change-Id is not in commit description",
+      "revId": "ac2783b1cb75cb7626e78e56531afc0aaec2d043",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
