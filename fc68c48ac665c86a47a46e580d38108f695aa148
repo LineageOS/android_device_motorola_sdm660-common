@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "46c5815a_f8522c6f",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 857,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2020-03-05T20:05:11Z",
+      "side": 1,
+      "message": "See line 851 for the correct name of the service, this line should read\n\nstart vendor.qcom-c_main-sh",
+      "revId": "fc68c48ac665c86a47a46e580d38108f695aa148",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
