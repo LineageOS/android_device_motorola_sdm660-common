@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "db07d43f_7b14f343",
+        "filename": "sepolicy/vendor/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-04-12T05:51:37Z",
+      "side": 1,
+      "message": "did u forgot to add \".\" at the end of prop? there\u0027s something here https://github.com/LineageOS/android_device_qcom_sepolicy/blob/lineage-17.1-legacy-um/vendor/common/property_contexts#L206",
+      "revId": "f64bc04279c9b3291ac25869f83c9a8e715c74a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
