@@ -347,6 +347,14 @@ vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib/libhdr_tm.so
 vendor/lib64/libhdr_tm.so
 
+# Graphics - hwcomposer.sdm660
+vendor/lib/hw/hwcomposer.sdm660.so
+vendor/lib/libsdmcore.so
+vendor/lib/libsdmutils.so
+vendor/lib64/hw/hwcomposer.sdm660.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+
 # Graphics - Firmwares
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
