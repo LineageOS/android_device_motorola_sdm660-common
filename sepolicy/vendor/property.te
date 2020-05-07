@@ -1,3 +1,4 @@
 type power_prop, property_type;
 type moto_boot_prop, property_type;
+type qemu_hw_mainkeys_prop, property_type;
 type vendor_fm_prop, property_type;
