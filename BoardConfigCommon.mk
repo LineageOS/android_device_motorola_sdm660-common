@@ -111,10 +111,15 @@ LOC_HIDL_VERSION := 3.0
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
-ifdef BOARD_USES_KEYMASTER_4
+ifneq ($(filter lake, $(TARGET_DEVICE)),)
     DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/keymaster_4.xml
 else
     DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/keymaster_3.xml
+endif
+ifneq ($(filter payton, $(TARGET_DEVICE)),)
+    DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/radio.xml
+else
+    DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/radio_qcril.xml
 endif
 DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(PLATFORM_PATH)/framework_manifest.xml
@@ -163,8 +168,6 @@ TARGET_USES_INTERACTION_BOOST := true
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_USES_OLD_MNC_FORMAT := true
 CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/sprint_apns.xml
-ODM_MANIFEST_SKUS += qcril
-ODM_MANIFEST_QCRIL_FILES := $(PLATFORM_PATH)/odm_manifest_qcril.xml
 
 # Root
 BOARD_ROOT_EXTRA_SYMLINKS := \

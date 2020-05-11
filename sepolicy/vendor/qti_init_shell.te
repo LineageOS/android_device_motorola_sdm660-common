@@ -7,5 +7,4 @@ allow qti_init_shell vendor_radio_data_file:file create_file_perms;
 
 get_prop(qti_init_shell, moto_boot_prop)
 get_prop(qti_init_shell, vendor_radio_prop)
-set_prop(qti_init_shell, exported2_default_prop)
 set_prop(qti_init_shell, qemu_hw_mainkeys_prop)
