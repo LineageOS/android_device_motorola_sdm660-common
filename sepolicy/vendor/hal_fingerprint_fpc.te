@@ -25,6 +25,7 @@ allow hal_fingerprint_fpc sysfs_fingerprint:file rw_file_perms;
 
 # Allow hal_fingerprint_fpc to add and find fpc_extension_service
 allow hal_fingerprint_fpc fpc_extension_service:hwservice_manager { add find };
+allow hal_fingerprint_fpc hal_fingerprint_hwservice:hwservice_manager { add find };
 
 allow hal_fingerprint_fpc fingerprint_data_file:dir rw_dir_perms;
 allow hal_fingerprint_fpc fingerprint_data_file:file create_file_perms;
