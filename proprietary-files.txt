@@ -768,6 +768,9 @@ vendor/etc/init/init.time_daemon.rc
 
 # Wi-Fi
 vendor/bin/cnss-daemon
+vendor/bin/wifilearner
+vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
+vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
 
 # WiFi Display - from mata - QP1A.190711.148
 bin/wfdservice|6ce4bf76af16cfd1a4bcd47c0231ed13f4e7a291
