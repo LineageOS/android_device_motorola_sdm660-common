@@ -1062,8 +1062,15 @@ service vendor.qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
     disabled
     oneshot
 
+service vendor.capsense_reset /vendor/bin/capsense_reset
+    class core
+    user system
+    group system
+    disabled
+
 on property:sys.boot_completed=1
     start vendor.qcom-post-boot
+    start vendor.capsense_reset
 
 on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
