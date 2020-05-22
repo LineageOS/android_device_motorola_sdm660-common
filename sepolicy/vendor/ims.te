@@ -1,0 +1,5 @@
+userdebug_or_eng(`
+    r_dir_file(ims, sysfs_diag)
+    allow ims diag_device:chr_file rw_file_perms;
+')
+dontaudit ims diag_device:chr_file rw_file_perms;
