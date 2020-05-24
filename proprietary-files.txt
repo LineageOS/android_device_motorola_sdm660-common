@@ -65,6 +65,9 @@ vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 vendor/lib/libmot_gpu_mapper.so
 
 # CNE
+etc/cne/Nexus/ATT/ATT_profiles.xml
+etc/cne/Nexus/ROW/ROW_profiles.xml
+etc/cne/Nexus/VZW/VZW_profiles.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
 product/framework/vendor.qti.data.factory-V1.0-java.jar
@@ -77,7 +80,11 @@ product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 product/framework/vendor.qti.hardware.factory-V1.0-java.jar
 product/framework/vendor.qti.hardware.factory-V1.1-java.jar
 product/framework/vendor.qti.latency-V2.0-java.jar
+product/lib/vendor.qti.hardware.data.iwlan@1.0.so
+product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
+-vendor/app/CACertService/CACertService.apk
 -vendor/app/CneApp/CneApp.apk
+-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
@@ -112,6 +119,7 @@ vendor/lib64/libcne.so
 vendor/lib64/libcneapiclient.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
+vendor/lib64/libjnihelper.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
