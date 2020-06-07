@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4cf5f18f_098c0828",
+        "filename": "sepolicy/vendor/hal_audio_default.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-07T08:21:43Z",
+      "side": 1,
+      "message": "this looks neverallow to me, even if it isn\u0027t allowing full sysfs access isn\u0027t looking good. please address the needed sys nodes for hal\n(i assume this is for devices using prebuilt audio hal. since we don\u0027t get such denials on other devices and source built hal)",
+      "revId": "ed9dcf14b6aa233bbd82da37507cfe2fa7abcec1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
