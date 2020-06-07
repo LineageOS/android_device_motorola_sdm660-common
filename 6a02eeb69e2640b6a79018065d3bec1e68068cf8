@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f4d22466_0d520fa5",
+        "filename": "sepolicy/vendor/hwservice_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-07T08:35:09Z",
+      "side": 1,
+      "message": "just label this as \"fpc_extension_service\" and don\u0027t edit hal_fingerprint_fpc.te",
+      "revId": "6a02eeb69e2640b6a79018065d3bec1e68068cf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
