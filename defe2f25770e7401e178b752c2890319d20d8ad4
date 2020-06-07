@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f6e07e1_1846468b",
+        "filename": "sepolicy/vendor/hal_gnss_qti.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-07T08:30:03Z",
+      "side": 1,
+      "message": "not related to diag",
+      "revId": "defe2f25770e7401e178b752c2890319d20d8ad4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "158f0d93_07d1fa86",
+        "filename": "sepolicy/vendor/system_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-07T08:30:03Z",
+      "side": 1,
+      "message": "not related to diag",
+      "revId": "defe2f25770e7401e178b752c2890319d20d8ad4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
