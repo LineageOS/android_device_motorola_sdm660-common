@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4d167f1_bd62f042",
+        "filename": "rootdir/etc/init.moto.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-07T08:28:21Z",
+      "side": 1,
+      "message": "we don\u0027t really have to wait for utags, since it\u0027s not used on our trees, related change for utag is https://review.lineageos.org/c/LineageOS/android_device_motorola_sdm632-common/+/265548\nwhich was again unnecessary so i dropped it after all",
+      "revId": "d9e104f7c73959096c79c9399a8e8e0f833af6ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
