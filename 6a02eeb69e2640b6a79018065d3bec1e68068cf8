@@ -16,6 +16,24 @@
       "revId": "6a02eeb69e2640b6a79018065d3bec1e68068cf8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef99f748_ccce0036",
+        "filename": "sepolicy/vendor/hwservice_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 17571
+      },
+      "writtenOn": "2020-06-08T13:22:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4d22466_0d520fa5",
+      "revId": "6a02eeb69e2640b6a79018065d3bec1e68068cf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
