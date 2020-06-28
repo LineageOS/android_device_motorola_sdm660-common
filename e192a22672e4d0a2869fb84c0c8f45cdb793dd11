@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7032820f_294fb2f1",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T08:01:48Z",
+      "side": 1,
+      "message": "exclude this system overlay from RROs",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "00a3cab7_fe9269f0",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T08:01:48Z",
+      "side": 1,
+      "message": "we have audio_policy_configuration.xml decommonized this tree is not proper place for this configs",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94a7d2f7_b380fdc8",
+        "filename": "properties.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T08:01:48Z",
+      "side": 1,
+      "message": "this new props goes under PRODUCT_SYSTEM_DEFAULT_PROPERTIES",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9542136_9a04ee7f",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T08:01:48Z",
+      "side": 1,
+      "message": "why using jasmine blobs? when we already have them in lake firmware",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f6e50e11_3a704b98",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T08:01:48Z",
+      "side": 1,
+      "message": "keep our aptx blobs",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
