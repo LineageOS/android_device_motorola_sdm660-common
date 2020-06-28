@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "87566fa6_7087f0bf",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 23396
+      },
+      "writtenOn": "2020-06-28T09:47:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "00a3cab7_fe9269f0",
+      "revId": "e192a22672e4d0a2869fb84c0c8f45cdb793dd11",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "94a7d2f7_b380fdc8",
         "filename": "properties.mk",
         "patchSetId": 1
