@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef28bd2c_a90de6d6",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T10:25:18Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 42,
+        "startChar": 32,
+        "endLine": 42,
+        "endChar": 33
+      },
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f483220b_0d7e21c8",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T10:25:18Z",
+      "side": 1,
+      "message": "we have audio_policy_configuration on device trees, for example this should be on chef tree \nsame with audio_policy_configuration_a2dp_offload_disabled.xml",
+      "range": {
+        "startLine": 72,
+        "startChar": 107,
+        "endLine": 72,
+        "endChar": 137
+      },
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9859ea0a_af06298e",
+        "filename": "properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T10:25:18Z",
+      "side": 1,
+      "message": "all new props should go under PRODUCT_SYSTEM_DEFAULT_PROPERTIES",
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "701196a2_1edfa4a0",
+        "filename": "properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-28T10:25:18Z",
+      "side": 1,
+      "message": "why is this on Netflix section?",
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
