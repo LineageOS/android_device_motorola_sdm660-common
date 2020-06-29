@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de1fb221_de904be6",
+        "filename": "sepolicy/vendor/hal_nfc_default.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2020-06-29T07:56:44Z",
+      "side": 1,
+      "message": "we better to use add_hwservice macro here\nadd_hwservice(hal_nfc_default,hal_nfc_hwservice)\n\nmore info: https://android.googlesource.com/platform/system/sepolicy/+/master/public/te_macros#640",
+      "revId": "af9ff8b3683e4510b75b99b48f59ec1c913e6ea1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
