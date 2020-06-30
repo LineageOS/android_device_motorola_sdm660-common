@@ -16,6 +16,24 @@
       "revId": "af9ff8b3683e4510b75b99b48f59ec1c913e6ea1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "394fb962_a3c9abe0",
+        "filename": "sepolicy/vendor/hal_nfc_default.te",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17571
+      },
+      "writtenOn": "2020-06-30T11:18:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "de1fb221_de904be6",
+      "revId": "af9ff8b3683e4510b75b99b48f59ec1c913e6ea1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
