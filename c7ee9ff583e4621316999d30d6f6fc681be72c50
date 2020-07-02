@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "a2bf95b0_113ad648",
+        "filename": "common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 23396
+      },
+      "writtenOn": "2020-07-02T14:29:30Z",
+      "side": 1,
+      "message": "Got that, will change later, for now i moved audio_policy_configuration.xml from /etc/audio_policy_configuration.xml to /etc/audio/audio_policy_configuration.xml on chef tree to not get the conflict .",
+      "parentUuid": "f483220b_0d7e21c8",
+      "range": {
+        "startLine": 72,
+        "startChar": 107,
+        "endLine": 72,
+        "endChar": 137
+      },
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "9859ea0a_af06298e",
         "filename": "properties.mk",
         "patchSetId": 2
@@ -65,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "d6594de0_b46a8568",
+        "filename": "properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 23396
+      },
+      "writtenOn": "2020-07-02T14:29:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9859ea0a_af06298e",
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "701196a2_1edfa4a0",
         "filename": "properties.mk",
         "patchSetId": 2
@@ -79,6 +121,24 @@
       "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c711f6a0_499366b6",
+        "filename": "properties.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 23396
+      },
+      "writtenOn": "2020-07-02T14:29:30Z",
+      "side": 1,
+      "message": "F , my bad",
+      "parentUuid": "701196a2_1edfa4a0",
+      "revId": "c7ee9ff583e4621316999d30d6f6fc681be72c50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
