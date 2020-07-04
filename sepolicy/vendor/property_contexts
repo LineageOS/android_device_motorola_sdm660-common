@@ -33,4 +33,6 @@ vendor.boot_completed      u:object_r:moto_boot_prop:s0
 
 ro.vendor.fm.              u:object_r:vendor_fm_prop:s0
 
+gpu.stats.debug.level      u:object_r:vendor_display_prop:s0
+
 persist.vendor.camera.     u:object_r:camera_prop:s0
