@@ -1,2 +1,5 @@
-type power_prop, property_type;
-type moto_boot_prop, property_type;
+vendor_public_prop(moto_boot_prop)
+vendor_public_prop(hwrev_prop)
+vendor_internal_prop(vendor_aov_prop)
+vendor_internal_prop(power_prop)
+vendor_internal_prop(vendor_qdma_prop)
