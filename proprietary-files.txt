@@ -390,8 +390,8 @@ vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxWmaDec.so
 
 # Moto Permissions
-etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml
-etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml
+etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml|ae00f0eb4b1e134e0f6f25586ec70f6faa00a528
+etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml|8d2c13a91e2f89f61a82ec2dcfc1958b618a42a5
 vendor/etc/permissions/com.motorola.camera2.xml|6d77e9310c6647cda3c35f64097a14a1bda798d3
 
 # Offmode charging
