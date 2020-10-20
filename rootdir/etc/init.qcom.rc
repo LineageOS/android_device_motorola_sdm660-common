@@ -95,7 +95,7 @@ on fs
     mkdir /mnt/vendor/persist/data 0700 system system
     mkdir /mnt/vendor/persist/bms 0700 root system
     # Reloading context for NPI uses /mnt/vendor/persist
-    exec u:r:vendor_toolbox:s0 root audio bluetooth graphics media net_raw system vendor_rfs vendor_rfs_shared -- /vendor/bin/toybox_vendor find /mnt/vendor/persist -type d -exec /vendor/bin/toybox_vendor setfattr -x security.sehash {} \;
+    exec u:r:vendor_toolbox:s0 root 112 9004 audio bluetooth drmrpc graphics media net_raw oem_2903 oem_2904 radio system u0_a13152 vendor_mot_drm vendor_mot_pwric vendor_mot_tcmd vendor_rfs vendor_rfs_shared -- /vendor/bin/toybox_vendor find /mnt/vendor/persist -type d -exec /vendor/bin/toybox_vendor setfattr -x security.sehash {} \;
     restorecon_recursive /mnt/vendor/persist
 
 on late-fs
