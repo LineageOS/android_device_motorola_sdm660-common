@@ -97,11 +97,11 @@ on fs
     chown root root /mnt/vendor/persist/captouch_basedata.bin
     chmod 0770 /mnt/vendor/persist/captouch_basedata.bin
     mkdir /mnt/vendor/persist/coresight 0770 root root
-    mkdir /mnt/vendor/persist/hlos_rfs 0770 oem_2951 oem_2952
-    mkdir /mnt/vendor/persist/hlos_rfs/shared 0770 oem_2951 oem_2952
-    mkdir /mnt/vendor/persist/rfs 0770 oem_2951 oem_2951
-    mkdir /mnt/vendor/persist/rfs/msm 0770 oem_2951 oem_2951
-    mkdir /mnt/vendor/persist/rfs/msm/mpss 0770 oem_2951 oem_2951
+    mkdir /mnt/vendor/persist/hlos_rfs 0770 oem_2903 oem_2904
+    mkdir /mnt/vendor/persist/hlos_rfs/shared 0770 oem_2903 oem_2904
+    mkdir /mnt/vendor/persist/rfs 0770 oem_2903 oem_2903
+    mkdir /mnt/vendor/persist/rfs/msm 0770 oem_2903 oem_2903
+    mkdir /mnt/vendor/persist/rfs/msm/mpss 0770 oem_2903 oem_2903
     # Reloading context for NPI uses /mnt/vendor/persist
     exec u:r:vendor_toolbox:s0 system -- /vendor/bin/toybox_vendor find /mnt/vendor/persist/alarm -type d -exec /vendor/bin/toybox_vendor setfattr -x security.sehash {} \;
     exec u:r:vendor_toolbox:s0 vendor_mot_pwric -- /vendor/bin/toybox_vendor find /mnt/vendor/persist/batt_health -type d -exec /vendor/bin/toybox_vendor setfattr -x security.sehash {} \;
@@ -194,7 +194,7 @@ on post-fs
     mkdir /mnt/vendor/persist/wmdrm 0775 oem_5003 oem_5003
     mkdir /mnt/vendor/persist/public/usc_dm 0775 radio radio
     mkdir /mnt/vendor/persist/sds 0700 root root
-    mkdir /mnt/vendor/persist/rfs/msm/mpss/mot_rfs 0771 oem_2951 system
+    mkdir /mnt/vendor/persist/rfs/msm/mpss/mot_rfs 0771 oem_2903 system
 
     # This dir is used to store any OMA(both DM and CP) files in persist partition
     # Any app with radio UID or oem_5004 GID can read/write/execute files in this dir.
