@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2202518_573ef03c",
+        "filename": "rro_overlays/WifiOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-26T16:56:12Z",
+      "side": 1,
+      "message": "this has it\u0027s own conversion commit",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 72
+      },
+      "revId": "b25d29e2e7dd51f544dd07f44c59f576d86e497b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ebc00f46_a4d87f52",
+        "filename": "rro_overlays/WifiOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-26T16:56:12Z",
+      "side": 1,
+      "message": "same as below",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 92
+      },
+      "revId": "b25d29e2e7dd51f544dd07f44c59f576d86e497b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4dcb1bbe_85ecbf41",
+        "filename": "rro_overlays/WifiOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-26T16:56:12Z",
+      "side": 1,
+      "message": "not in removed overlays - need to explain why we need it",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 117
+      },
+      "revId": "b25d29e2e7dd51f544dd07f44c59f576d86e497b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9bae1775_aa0a5373",
+        "filename": "rro_overlays/WifiOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-26T16:56:12Z",
+      "side": 1,
+      "message": "none of these were in the overlays we just removed, we ought to explain them in commit msg?",
+      "range": {
+        "startLine": 52,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 97
+      },
+      "revId": "b25d29e2e7dd51f544dd07f44c59f576d86e497b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
