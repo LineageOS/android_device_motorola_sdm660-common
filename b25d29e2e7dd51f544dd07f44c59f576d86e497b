@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a1535d60_e44f2981",
+        "filename": "overlay/packages/apps/Bluetooth/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-26T17:01:10Z",
+      "side": 0,
+      "message": "we dropping this intentionally?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 49
+      },
+      "revId": "b25d29e2e7dd51f544dd07f44c59f576d86e497b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
