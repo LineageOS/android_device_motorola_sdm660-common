@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a11c3da_c978ab46",
+        "filename": "rro_overlays/WifiOverlay/res/values/config.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T22:00:14Z",
+      "side": 1,
+      "message": "made this easier, these are the one\u0027s we didn\u0027t have before",
+      "range": {
+        "startLine": 56,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 0
+      },
+      "revId": "5697cccbe44390a057b6c87529a399fdc5a079a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
