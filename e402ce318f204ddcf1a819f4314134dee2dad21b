@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "30e89af2_bc0bf613",
+        "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T21:21:58Z",
+      "side": 1,
+      "message": "is default",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6ddc6f65_3b41fbfa",
         "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
         "patchSetId": 2
@@ -25,6 +48,53 @@
     },
     {
       "key": {
+        "uuid": "f356f097_2b0eb6d8",
+        "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T21:21:58Z",
+      "side": 1,
+      "message": "yeah this needs to go,1 we don\u0027t have it and 2 https://github.com/LineageOS/android_frameworks_base/blob/f2c103c77eb087c0fafb255155c0a90c63debb12/packages/Tethering/res/values/config.xml#L48 exists",
+      "parentUuid": "6ddc6f65_3b41fbfa",
+      "range": {
+        "startLine": 35,
+        "startChar": 7,
+        "endLine": 35,
+        "endChar": 29
+      },
+      "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf21f92c_c4f5f0b2",
+        "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T21:21:58Z",
+      "side": 1,
+      "message": "rest of this is default",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 36,
+        "endChar": 30
+      },
+      "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "cd0ba23b_454b8e28",
         "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
         "patchSetId": 2
@@ -41,6 +111,52 @@
         "startChar": 8,
         "endLine": 43,
         "endChar": 30
+      },
+      "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2f6f47d_097eb6ff",
+        "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T21:21:58Z",
+      "side": 1,
+      "message": "- bnep is default",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 19
+      },
+      "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fbf69859_bb9830e1",
+        "filename": "rro_overlays/TetheringOverlay/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-12-29T21:21:58Z",
+      "side": 1,
+      "message": "actaully not at all needed.",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 19
       },
       "revId": "e402ce318f204ddcf1a819f4314134dee2dad21b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
