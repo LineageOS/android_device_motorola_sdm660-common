@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd9a2106_5f2c7913",
+        "filename": "rootdir/etc/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-01-02T19:02:59Z",
+      "side": 0,
+      "message": "So instead of the revert of the fac* denials commit, has anyone tried just changing this one line to the previous version? It seems like the denial is just /mnt/vendor/persist itself isn\u0027t getting wiped\n\nhttps://forum.xda-developers.com/t/rom-official-payton-nightlies-lineage-os-17-1.3802265/post-84203661\n\nhttps://forum.xda-developers.com/t/rom-official-payton-nightlies-lineage-os-17-1.3802265/post-84203037\n\nhttps://forum.xda-developers.com/t/rom-official-payton-nightlies-lineage-os-17-1.3802265/post-84202279\n\nThe other confusing part is Payton users say that Pixel Experience works for them... When PE ROM has the exact same commits...",
+      "revId": "58c7eec105d671dcdc48901a3d3af58b85df0fc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
