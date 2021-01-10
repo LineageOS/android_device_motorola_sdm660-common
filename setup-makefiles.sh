@@ -43,6 +43,10 @@ if [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt" ]; then
     # The standard device blobs
     write_makefiles "${MY_DIR}/../${DEVICE}/proprietary-files.txt" true
 
+    if [[ ! -z "${USES_MOTCAMERA}" ]]; then
+        write_motcam_androidmk
+    fi
+
     # Finish
     write_footers
 fi
