@@ -98,4 +98,4 @@ if [ -z "${ONLY_COMMON}" ] && [ -s "${MY_DIR}/../${DEVICE}/proprietary-files.txt
     extract "${MY_DIR}/../${DEVICE}/proprietary-files.txt" "${SRC}" "${KANG}" --section "${SECTION}"
 fi
 
-"${MY_DIR}/setup-makefiles.sh"
+"${MY_DIR}/../${DEVICE}/setup-makefiles.sh"
