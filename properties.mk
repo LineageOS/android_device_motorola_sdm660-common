@@ -225,6 +225,11 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.contents_mode=ice \
     ro.crypto.volume.filenames_mode=aes-256-cts \
 
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=SDM660
+
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
