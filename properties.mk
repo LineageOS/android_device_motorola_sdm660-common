@@ -216,6 +216,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=1
 
+# SD Card Encryption
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.crypto.volume.contents_mode=ice \
+    ro.crypto.volume.filenames_mode=aes-256-cts \
+
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
