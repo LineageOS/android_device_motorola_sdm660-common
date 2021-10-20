@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4c8eef4f_57844a1c",
+        "filename": "gps/etc/izat.conf",
+        "patchSetId": 5
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-10-20T02:44:11Z",
+      "side": 1,
+      "message": "Btw, should we enable this xtwifi stuff? Nolen, I saw that cheryl you and Mike disabled it and tbh I\u0027m not even sure what it does as I never checked into it lol",
+      "revId": "26d2aa3de82ae66da909fb538343405c3a0ab85e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
