@@ -16,6 +16,24 @@
       "message": "Does this solve the issue?",
       "revId": "e653345b110fece7c9229667324591e7bf955b9e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "138b1553_f66adf65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-11-09T11:26:48Z",
+      "side": 1,
+      "message": "Haven\u0027t gotten any feedback about it from the community... it does fix the brightness on ambient display, but it could be causing automatic brightness issues when charging or the notification LED going off so that needs to be tested more.\n\nI wanted to also just see if we can fix those newer Lake values by diffing what changed on the lemonade auto brightness commits vs that as I think keeping Motorola values might be better on our Motorola device anyways but tbh I haven\u0027t had the spare time to do so for meow",
+      "parentUuid": "32f3f497_c290f4c9",
+      "revId": "e653345b110fece7c9229667324591e7bf955b9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
