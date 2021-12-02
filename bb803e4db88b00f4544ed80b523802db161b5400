@@ -16,6 +16,24 @@
       "message": "...Isn\u0027t this a 4.4 device?",
       "revId": "bb803e4db88b00f4544ed80b523802db161b5400",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dab3ad3_3ef5c7ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-02T16:47:48Z",
+      "side": 1,
+      "message": "see previous commit",
+      "parentUuid": "e07d14ab_6da327c7",
+      "revId": "bb803e4db88b00f4544ed80b523802db161b5400",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
