@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16c6ae24_92e718df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-12-02T07:24:24Z",
+      "side": 1,
+      "message": "This fixes Adoptable Storage on payton. It does show SD Card missing after reboot, but once you unlock? It then unlocks the SD Card and Adoptable Storage works again.\n\nhttps://imgur.com/a/QjXg0XY",
+      "revId": "65daeb62569e70f3cda0d5ecf65139a36f57b59a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
