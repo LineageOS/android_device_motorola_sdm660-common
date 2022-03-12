@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87e26203_65dbdf67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2022-03-12T17:48:09Z",
+      "side": 1,
+      "message": "breaks wifi\nhttps://github.com/LineageOS/android_hardware_qcom_wlan/blob/lineage-18.1-caf/wcnss-service/Android.mk#L8\nhttps://github.com/LineageOS/android_kernel_motorola_msm8998/blob/lineage-18.1/drivers/staging/qcacld-3.0/Android.mk#L77",
+      "revId": "f6354a32017439956062d0d6bd5d291d15e41108",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
