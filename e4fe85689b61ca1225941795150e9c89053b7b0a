@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77c228eb_32f6fd13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-03-14T06:41:41Z",
+      "side": 1,
+      "message": "I know it\u0027s already merged, but for sanity sake I did test this and payton properly loads the device-specific init script so oem is symlinked for vendor.",
+      "revId": "e4fe85689b61ca1225941795150e9c89053b7b0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
