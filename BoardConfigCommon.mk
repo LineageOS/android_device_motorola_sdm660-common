@@ -130,6 +130,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 
+# Properties
+TARGET_SYSTEM_PROP += $(PLATFORM_PATH)/system.prop
+
 # RIL
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 CUSTOM_APNS_FILE := $(PLATFORM_PATH)/configs/sprint_apns.xml
