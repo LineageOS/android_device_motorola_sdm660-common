@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bc8289d_7212f140",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-18T14:58:02Z",
+      "side": 1,
+      "message": "uhhh some of these were system properties, some were vendor, some odm?",
+      "revId": "d9b2622f3b2dc515ad3e2a63dc68ce2be0ed56fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
