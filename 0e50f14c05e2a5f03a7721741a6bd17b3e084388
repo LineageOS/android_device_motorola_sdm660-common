@@ -48,6 +48,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c617f213_fb39885b",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 22728
+      },
+      "writtenOn": "2022-03-19T13:53:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f60a445a_eb38226e",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60f3f54d_95cc78bd",
@@ -95,6 +119,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a21ca5d_e34ee9f8",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 22728
+      },
+      "writtenOn": "2022-03-19T13:53:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ab23626_04922c06",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 27
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db04b97a_f5a6ee57",
@@ -132,6 +180,30 @@
       "side": 1,
       "message": "oops, lets move to the right place",
       "parentUuid": "db04b97a_f5a6ee57",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 162,
+        "endChar": 64
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc8cccc2_5149288c",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 22728
+      },
+      "writtenOn": "2022-03-19T13:53:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa9cfe90_dde06518",
       "range": {
         "startLine": 162,
         "startChar": 0,
