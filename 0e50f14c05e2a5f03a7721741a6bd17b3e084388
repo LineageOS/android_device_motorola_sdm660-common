@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a42362e_579ae9e7",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-19T04:49:06Z",
+      "side": 1,
+      "message": "seems this should belong on vendor",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60f3f54d_95cc78bd",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-19T04:49:06Z",
+      "side": 1,
+      "message": "looks like this goes on product.prop now? Looking at coral for ref",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 27
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db04b97a_f5a6ee57",
+        "filename": "vendor.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-19T04:49:06Z",
+      "side": 1,
+      "message": "this was in system.prop before, why did it land here?",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 162,
+        "endChar": 64
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
