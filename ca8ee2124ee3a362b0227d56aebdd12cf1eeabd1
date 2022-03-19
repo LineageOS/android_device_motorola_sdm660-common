@@ -16,6 +16,24 @@
       "message": "Jarl makes a fair point, stock doesn\u0027t ship with this, and it\u0027s a non-fatal entry for what is likely a device specific hook feature.",
       "revId": "ca8ee2124ee3a362b0227d56aebdd12cf1eeabd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc405367_d441e67a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22728
+      },
+      "writtenOn": "2022-03-19T13:40:53Z",
+      "side": 1,
+      "message": "Wouldn\u0027t that be an improvement, as it would just act as a bridge to avoid a delay in starting the interface? As it has a defined origin and seems to be something that appears in the most current versions of android, it seems kind of obvious that we wouldn\u0027t have it in our old vendors",
+      "parentUuid": "982ece8c_924933f6",
+      "revId": "ca8ee2124ee3a362b0227d56aebdd12cf1eeabd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

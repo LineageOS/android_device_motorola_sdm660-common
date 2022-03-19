@@ -16,6 +16,24 @@
       "message": "The error itself doesn\u0027t break anything, is this really needed?",
       "revId": "00e5cc8109a30357c9a95c33575c5c79a2f2fa82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2783ee1f_8b574995",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22728
+      },
+      "writtenOn": "2022-03-19T13:40:53Z",
+      "side": 1,
+      "message": "It doesn\u0027t break, but causes a delay on ril to start",
+      "parentUuid": "09170366_be1f15d4",
+      "revId": "00e5cc8109a30357c9a95c33575c5c79a2f2fa82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
