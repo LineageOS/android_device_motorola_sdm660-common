@@ -143,6 +143,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "123b7d90_6b573e3a",
+        "filename": "system.prop",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-21T15:31:20Z",
+      "side": 1,
+      "message": "Yeah, I meant that as of R \u0026 S it moved to product.",
+      "parentUuid": "8a21ca5d_e34ee9f8",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 27
+      },
+      "revId": "0e50f14c05e2a5f03a7721741a6bd17b3e084388",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "db04b97a_f5a6ee57",
