@@ -51,6 +51,23 @@
       "message": "Using this we avoid the dlopen fail log, it happens everytime user switch from wifi to mobile data, delaying connection",
       "revId": "ca8ee2124ee3a362b0227d56aebdd12cf1eeabd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25a50f0c_524b01bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-21T18:37:23Z",
+      "side": 1,
+      "message": "Yeah, this does seem to speed up that switch, why not.",
+      "revId": "ca8ee2124ee3a362b0227d56aebdd12cf1eeabd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
