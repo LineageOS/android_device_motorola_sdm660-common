@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "055da5b6_845dd8f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2022-07-24T18:51:56Z",
+      "side": 1,
+      "message": "This commit breaks adopted storage on payton, after a reboot all files on the sdcard are broken, visible by changed sha256 hashes:\n\n$ wget https://f-droid.org/repo/org.fdroid.fdroid_1015052.apk\n$ sha256sum org.fdroid.fdroid_1015052.apk\n52930b1efbcd079999e112e6d781c8311201b04f491a2a8860fa7583e70c3832  org.fdroid.fdroid_1015052.apk\n$ adb push org.fdroid.fdroid_1015052.apk /storage/emulated/0/\norg.fdroid.fdroid_1015052.apk: 1 file pushed. 17.6 MB/s (8877252 bytes in 0.482s)\n\n$ adb shell sha256sum /storage/emulated/0/org.fdroid.fdroid_1015052.apk\n52930b1efbcd079999e112e6d781c8311201b04f491a2a8860fa7583e70c3832  /storage/emulated/0/org.fdroid.fdroid_1015052.apk\n\nrebooting phone...\n\n$ adb shell sha256sum /storage/emulated/0/org.fdroid.fdroid_1015052.apk\nd8a959160ce3f3a18806ec3be646abcad2239640a5363e141df212a7dabdada4  /storage/emulated/0/org.fdroid.fdroid_1015052.apk",
+      "revId": "6f465205c3871d77b28eb844912b65b08937c9a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
