@@ -204,6 +204,12 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 
 # USB
 persist.sys.usb.config.extra=none
+vendor.usb.dpl.inst.name=dpl
+vendor.usb.qdss.inst.name=qdss_sw
+vendor.usb.rmnet.func.name=gsi
+vendor.usb.rmnet.inst.name=rmnet
+vendor.usb.rndis.func.name=gsi
+vendor.usb.use_gadget_hal=0
 
 # Watchdog
 ro.hw_timeout_multiplier=3
