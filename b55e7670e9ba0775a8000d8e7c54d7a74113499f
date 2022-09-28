@@ -16,6 +16,24 @@
       "message": "Are you really sure that you need this?",
       "revId": "b55e7670e9ba0775a8000d8e7c54d7a74113499f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "083d0585_055f166a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-09-28T21:38:38Z",
+      "side": 1,
+      "message": "I am not, I followed suit as 845\u0027s were doing it and their USB setup is no different to ours.\n\nFrom the looks of it, can confirm we need the use_gadget piece at least",
+      "parentUuid": "3aed1ab4_395ba01a",
+      "revId": "b55e7670e9ba0775a8000d8e7c54d7a74113499f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
