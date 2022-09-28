@@ -177,6 +177,9 @@ ro.vendor.use_data_netmgrd=true
 ro.telephony.iwlan_operation_mode=legacy
 ro.vendor.build.vendorprefix=/vendor
 
+# Rescue party
+persist.sys.disable_rescue=true
+
 # Sensors
 ro.vendor.sensors.smd=false
 
