@@ -33,6 +33,24 @@
       "message": "Uhh, how did Georg become the author? ",
       "revId": "f935604ad1d0111af301f5fd2927ee048b279be6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "568fd920_a35fd4c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-09-29T15:21:39Z",
+      "side": 1,
+      "message": "Yeah, I tracked this down, see the Nokia version - on me.\n\nWas a derp on fixing the bluetooth overlay removal.\n\nReverts as incoming, as discussed.",
+      "parentUuid": "e5058010_5e8ecf73",
+      "revId": "f935604ad1d0111af301f5fd2927ee048b279be6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
