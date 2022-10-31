@@ -14,6 +14,7 @@ persist.sys.fflag.override.settings_network_and_internet_v2=true
 persist.vendor.cne.feature=1
 persist.vendor.dpm.feature=0
 ril.subscription.types=NV,RUIM
+ro.telephony.block_binder_thread_on_incoming_calls=false
 telephony.lteOnCdmaDevice=1
 
 # Netflix
