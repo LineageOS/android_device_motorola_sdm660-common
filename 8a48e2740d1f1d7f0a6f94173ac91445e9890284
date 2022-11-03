@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b632f2e3_2b0c23a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-11-03T11:13:25Z",
+      "side": 1,
+      "message": "The xtra servers are commented. If any, should remain like that.",
+      "revId": "8a48e2740d1f1d7f0a6f94173ac91445e9890284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
