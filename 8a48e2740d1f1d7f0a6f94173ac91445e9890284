@@ -16,6 +16,23 @@
       "message": "The xtra servers are commented. If any, should remain like that.",
       "revId": "8a48e2740d1f1d7f0a6f94173ac91445e9890284",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97e263ea_58e38dfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-11-03T11:25:19Z",
+      "side": 1,
+      "message": "Moreover, you are also changing server\u0027s URL.",
+      "revId": "8a48e2740d1f1d7f0a6f94173ac91445e9890284",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
