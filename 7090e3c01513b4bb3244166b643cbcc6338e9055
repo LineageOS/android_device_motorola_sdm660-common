@@ -16,6 +16,23 @@
       "message": "as discussed on telegram: https://t.me/c/1383188454/186093",
       "revId": "7090e3c01513b4bb3244166b643cbcc6338e9055",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2cf1f4c_94911ce3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-11-04T03:41:03Z",
+      "side": 1,
+      "message": "Payton only has 3 GB RAM, so lets cater to lowest common",
+      "revId": "7090e3c01513b4bb3244166b643cbcc6338e9055",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
