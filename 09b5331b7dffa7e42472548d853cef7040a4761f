@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f70d03cc_9a5be52d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32036
+      },
+      "writtenOn": "2022-11-07T18:34:48Z",
+      "side": 1,
+      "message": "this is a total no-op, see https://github.com/LineageOS/android_kernel_motorola_msm8998/commit/509a4258d861ed255cdb006b4f849002912e2fcb",
+      "revId": "09b5331b7dffa7e42472548d853cef7040a4761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
