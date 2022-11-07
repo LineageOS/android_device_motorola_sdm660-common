@@ -16,6 +16,24 @@
       "message": "this is a total no-op, see https://github.com/LineageOS/android_kernel_motorola_msm8998/commit/509a4258d861ed255cdb006b4f849002912e2fcb",
       "revId": "09b5331b7dffa7e42472548d853cef7040a4761f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d023455d_b0adc2d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2022-11-07T19:12:26Z",
+      "side": 1,
+      "message": "Thanks for the hint, I will send a revert.\n\nFtr: nokia_sdm660-common also contains this setting:\nhttps://github.com/LineageOS/android_device_nokia_sdm660-common/blob/lineage-20/rootdir/etc/fstab.qcom#L23\nand the kernel also has no support for the fstab option anymore:\nhttps://github.com/LineageOS/android_kernel_nokia_sdm660/commit/4b4591e992aa50466f7c00318e094ef05e21f545",
+      "parentUuid": "f70d03cc_9a5be52d",
+      "revId": "09b5331b7dffa7e42472548d853cef7040a4761f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
