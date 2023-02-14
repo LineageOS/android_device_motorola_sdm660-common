@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca62b914_10b4e24e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-02-14T16:44:31Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e securit patch level of this build?\n\nro.build.version.security_patch\u003d2021-02-01\n\nI think this build was just some hotfix to the previous build\u0027s blobs we used but a few RIL related blobs did change",
+      "revId": "bde7da9e4057846494d13560e2dcf9411ee6a2be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
